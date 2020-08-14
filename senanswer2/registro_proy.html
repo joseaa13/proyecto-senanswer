@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>registro</title>
+    <link rel="stylesheet" href="imagenes/cssfont/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min">-->
+    <link rel="stylesheet" href="css/style_registro.css">
+</head>
+<body >
+    <div class="capa">
+        <header id="cabecera row">
+            <a href="#" class="a_imagen_1"><img id="imagen_1"  src="imagenes/logom11.png">
+            </a>
+            <div class="navegacion">
+                <form id="formulario_2" action="http://localhost/senanswer2/open_index.php" class="form1" method="POST" autocomplete="off">
+                    <input type="email" id="correo_2" class="entrada_2" name="correo" placeholder=" Correo" required >
+                    <input type="password" id="contraseña_2" class="entrada_2" name="pass" placeholder="Contraseña" required>
+                    <input type="submit" class="boton" id="boton_login" value="Ingresar">
+
+                </form>
+                <a href="#" class="olvidaste_c">
+                        Olvidaste tu contraseña?
+                </a>
+            </div>
+        </header>
+        <div  class="section row col-12"> <!--       -->
+            <div class="svg"><img src="imagenes/login.svg" alt="for login">
+            </div>
+            <form id="formulario"  action="http://localhost/senanswer2/conexion.php"  class="" method="post"  autocomplete="off"  >
+                <h4>Registro</h4>
+                <input class="entrada"  type="text" name="nombre" id="nombre" required   pattern="[a-zA-Z]{2,10}"  title="el formato no acepta numeros" placeholder="Ingrese su nombre"><br><br>
+                <input class="entrada"  type="text" name="apellido" id="apellido" required pattern="[a-zA-Z]{2,10}"  title="el formato no acepta numeros"  placeholder="Ingrese apellido"> <br><br>
+                <input class="entrada" type="email" name="correo" id="correo" required   placeholder="Ingrese su correo "> <br><br> 
+                <input class="entrada" type="password" name="pass" id="contraseña" required  placeholder="Ingrese su contraseña "> <br><br>
+                <input type="submit" id="boton" name="submit"  value="Registrarse">
+                <p> <a href="registro.html" class="cuenta">Ya tengo una cuenta?
+
+                    </a>
+                </p>
+
+
+            </form>
+        </div>
+    
+        <footer id="pies" class="row " >
+            <div class="footer-columna ">
+                <h3 id="h3_column">Contacto</h3>
+                <span class="fa fa-map-marker">
+                    <p class="parrafo1-footer">ubicados en el sena</p>
+                </span>
+                <span class="fa fa-phone">
+                    <p class="parrafo1-footer">314 880 5398</p>
+                </span>
+                <span class="fas fa-envelope">
+                    <p class="parrafo1-footer">yoan9802@gmail.com</p>
+                </span>
+            </div>
+            <div class="footer-columna ">
+                <h3 class="h3_acerca">Acerca De Nosostros</h3>
+                <p class="p_footer"> somos un grupo con objetivos claros y bien establecidos.
+                    de ese mismo lado  nuestros  esfuerzos van dirijidos a las 
+                    personas que plantean preguntas y buscan soluciones.</p>
+            </div>
+            <div class="footer-columna ">
+                <h3>Conducta</h3>
+                <p class="p_footer"> para  los que ingresan. acepta no usar los Servicios para:
+                    Conseguir o intentar conseguir un acceso no autorizado a nuestros  datos, redes,  o servidores.<br>
+                    Realizar publicaciones que contengan anuncios no autorizados y no indebidas
+                .</p>
+            </div>
+        
+            </footer>
+            <div class="footer_redes row">
+                <p><a href="#" class="fab fa-facebook-square"> </a>
+                    <a href="#" class="fab fa-twitter-square"> </a>
+                    <a href="#" class="fab fa-instagram"> </a>
+                    <a href="#" class="fab fa-github-square"> </a> 
+                </p> 
+            </div>
+            
+            <div class="footer-final row   ">
+                
+            <p>&copy;2020,Todos los derechos reservados - (Senanswer)  </p> 
+            <span id="rise" class="fas fa-fist-raised"> </span>
+            </div>
+
+
+
+
+
+
+
+    </div>
+    <script src="js/js_registro.js"></script>
+   <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
